@@ -123,7 +123,8 @@ package main
 
 import (
   "fmt"
-	"github.com/robotn/robot"
+
+  "github.com/robotn/robot"
 )
 
 func main() {
