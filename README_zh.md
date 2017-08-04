@@ -2,7 +2,7 @@
 [![CircleCI Status](https://circleci.com/gh/robotn/robot.svg?style=shield)](https://circleci.com/gh/robotn/robot)
 [![Go Report Card](https://goreportcard.com/badge/github.com/robotn/robot)](https://goreportcard.com/report/github.com/robotn/robot)
 [![GoDoc](https://godoc.org/github.com/robotn/robot?status.svg)](https://godoc.org/github.com/robotn/robot)
-[![Release](https://github-release-version.herokuapp.com/github/robotn/robot/release.svg?style=flat)](https://github.com/robotn/robot/releases/latest)
+[![Release](https://github-release-version.herokuapp.com/github/go-vgo/robotgo/release.svg?style=flat)](https://github.com/go-vgo/robotgo/releases/latest)
 [![Join the chat at https://gitter.im/robotn/robot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/robotn/robot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
   
   >Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
@@ -158,7 +158,7 @@ func main() {
 } 
 ```
 
-#### [位图](https://github.com/robotn/robot/blob/master/examples/bitmap/mian.go)
+<!-- #### [位图](https://github.com/robotn/robot/blob/master/examples/bitmap/mian.go)
 
 ```Go
 package main
@@ -178,7 +178,7 @@ func main() {
 
   robotgo.SaveBitmap(bitmap, "test.png")
 } 
-```
+``` -->
 
 #### [事件](https://github.com/robotn/robot/blob/master/examples/event/main.go)
 
