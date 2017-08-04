@@ -1,6 +1,6 @@
 // Copyright 2016-2017 The go-vgo Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
-// https://github.com/go-vgo/robotgo/blob/master/LICENSE
+// https://github.com/robotn/robot/blob/master/LICENSE
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -15,10 +15,10 @@ Package robotgo Go native cross-platform system automation.
 Please make sure Golang, GCC, zlib and libpng is installed correctly before installing RobotGo;
 
 See Requirements:
-	https://github.com/go-vgo/robotgo#requirements
+	https://github.com/robotn/robot#requirements
 
 Installation:
-	go get -u github.com/go-vgo/robotgo
+	go get -u github.com/robotn/robot
 */
 package robotgo
 
@@ -50,7 +50,7 @@ import (
 	"unsafe"
 	// "syscall"
 
-	"github.com/go-vgo/robotgo/clipboard"
+	"github.com/robotn/robot/clipboard"
 	"github.com/shirou/gopsutil/process"
 )
 
@@ -405,7 +405,7 @@ func Try(fun func(), handler func(interface{})) {
 // KeyTap tap the keyboard;
 //
 // See keys:
-//	https://github.com/go-vgo/robotgo/blob/master/docs/keys.md
+//	https://github.com/robotn/robot/blob/master/docs/keys.md
 func KeyTap(args ...interface{}) {
 	var (
 		akey   string
@@ -467,7 +467,7 @@ func KeyTap(args ...interface{}) {
 // KeyToggle toggle the keyboard
 //
 // See keys:
-//	https://github.com/go-vgo/robotgo/blob/master/docs/keys.md
+//	https://github.com/robotn/robot/blob/master/docs/keys.md
 func KeyToggle(args ...string) string {
 	var (
 		adown  string

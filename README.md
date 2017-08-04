@@ -1,14 +1,14 @@
 # Robotgo
-<!--<img align="right" src="https://raw.githubusercontent.com/go-vgo/robotgo/master/logo.jpg">-->
-<!--[![Build Status](https://travis-ci.org/go-vgo/robotgo.svg)](https://travis-ci.org/go-vgo/robotgo)
-[![codecov](https://codecov.io/gh/go-vgo/robotgo/branch/master/graph/badge.svg)](https://codecov.io/gh/go-vgo/robotgo)-->
-<!--<a href="https://circleci.com/gh/go-vgo/robotgo/tree/dev"><img src="https://img.shields.io/circleci/project/go-vgo/robotgo/dev.svg" alt="Build Status"></a>-->
-[![CircleCI Status](https://circleci.com/gh/go-vgo/robotgo.svg?style=shield)](https://circleci.com/gh/go-vgo/robotgo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-vgo/robotgo)](https://goreportcard.com/report/github.com/go-vgo/robotgo)
-[![GoDoc](https://godoc.org/github.com/go-vgo/robotgo?status.svg)](https://godoc.org/github.com/go-vgo/robotgo)
-[![Release](https://github-release-version.herokuapp.com/github/go-vgo/robotgo/release.svg?style=flat)](https://github.com/go-vgo/robotgo/releases/latest)
-[![Join the chat at https://gitter.im/go-vgo/robotgo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-vgo/robotgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<!--<a href="https://github.com/go-vgo/robotgo/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a>-->
+<!--<img align="right" src="https://raw.githubusercontent.com/robotn/robot/master/logo.jpg">-->
+<!--[![Build Status](https://travis-ci.org/robotn/robot.svg)](https://travis-ci.org/robotn/robot)
+[![codecov](https://codecov.io/gh/robotn/robot/branch/master/graph/badge.svg)](https://codecov.io/gh/robotn/robot)-->
+<!--<a href="https://circleci.com/gh/robotn/robot/tree/dev"><img src="https://img.shields.io/circleci/project/robotn/robot/dev.svg" alt="Build Status"></a>-->
+[![CircleCI Status](https://circleci.com/gh/robotn/robot.svg?style=shield)](https://circleci.com/gh/robotn/robot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/robotn/robot)](https://goreportcard.com/report/github.com/robotn/robot)
+[![GoDoc](https://godoc.org/github.com/robotn/robot?status.svg)](https://godoc.org/github.com/robotn/robot)
+[![Release](https://github-release-version.herokuapp.com/github/robotn/robot/release.svg?style=flat)](https://github.com/robotn/robot/releases/latest)
+[![Join the chat at https://gitter.im/robotn/robot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/robotn/robot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<!--<a href="https://github.com/robotn/robot/releases"><img src="https://img.shields.io/badge/%20version%20-%206.0.0%20-blue.svg?style=flat-square" alt="Releases"></a>-->
   
   >Golang Desktop Automation. Control the mouse, keyboard, bitmap, read the screen,   Window Handle and global event listener.
   
@@ -16,7 +16,7 @@ RobotGo supports Mac, Windows, and Linux(X11).
 
 This is a work in progress.
 
-[简体中文](https://github.com/go-vgo/robotgo/blob/master/README_zh.md)
+[简体中文](https://github.com/robotn/robot/blob/master/README_zh.md)
 
 ## Contents
 - [Docs](#docs)
@@ -30,9 +30,9 @@ This is a work in progress.
 - [License](#license)
 
 ## Docs
-  - [API Docs](https://github.com/go-vgo/robotgo/blob/master/docs/doc.md) &nbsp;&nbsp;&nbsp;
-  - [中文文档](https://github.com/go-vgo/robotgo/blob/master/docs/doc_zh.md)
-  - [GoDoc](https://godoc.org/github.com/go-vgo/robotgo)
+  - [API Docs](https://github.com/robotn/robot/blob/master/docs/doc.md) &nbsp;&nbsp;&nbsp;
+  - [中文文档](https://github.com/robotn/robot/blob/master/docs/doc_zh.md)
+  - [GoDoc](https://godoc.org/github.com/robotn/robot)
 
 ## Requirements:
 
@@ -89,24 +89,24 @@ sudo dnf install xclip
 
 ## Installation:
 ```
-go get github.com/go-vgo/robotgo
+go get github.com/robotn/robot
 ```
   It's that easy!
 
 ## Update:
 ```
-go get -u github.com/go-vgo/robotgo  
+go get -u github.com/robotn/robot  
 ```
 
-## [Examples:](https://github.com/go-vgo/robotgo/blob/master/examples)
+## [Examples:](https://github.com/robotn/robot/blob/master/examples)
 
-#### [Mouse](https://github.com/go-vgo/robotgo/blob/master/examples/mouse/main.go)
+#### [Mouse](https://github.com/robotn/robot/blob/master/examples/mouse/main.go)
 
 ```Go
 package main
 
 import (
-	"github.com/go-vgo/robotgo"
+	"github.com/robotn/robot"
 )
 
 func main() {
@@ -116,14 +116,14 @@ func main() {
 } 
 ``` 
 
-#### [Keyboard](https://github.com/go-vgo/robotgo/blob/master/examples/key/main.go)
+#### [Keyboard](https://github.com/robotn/robot/blob/master/examples/key/main.go)
 
 ```Go
 package main
 
 import (
   "fmt"
-	"github.com/go-vgo/robotgo"
+	"github.com/robotn/robot"
 )
 
 func main() {
@@ -142,7 +142,7 @@ func main() {
 } 
 ```
 
-#### [Screen](https://github.com/go-vgo/robotgo/blob/master/examples/screen/main.go)
+#### [Screen](https://github.com/robotn/robot/blob/master/examples/screen/main.go)
 
 ```Go
 package main
@@ -150,7 +150,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/robotn/robot"
 )
 
 func main() {
@@ -161,7 +161,7 @@ func main() {
 } 
 ```
 
-#### [Bitmap](https://github.com/go-vgo/robotgo/blob/master/examples/bitmap/mian.go)
+#### [Bitmap](https://github.com/robotn/robot/blob/master/examples/bitmap/mian.go)
 
 ```Go
 package main
@@ -169,7 +169,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/robotn/robot"
 )
 
 func main() {
@@ -183,7 +183,7 @@ func main() {
 } 
 ```
 
-#### [Event](https://github.com/go-vgo/robotgo/blob/master/examples/event/main.go)
+#### [Event](https://github.com/robotn/robot/blob/master/examples/event/main.go)
 
 ```Go
 package main
@@ -191,7 +191,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/robotn/robot"
 )
 
 func main() {
@@ -207,7 +207,7 @@ func main() {
 } 
 ```
 
-#### [Window](https://github.com/go-vgo/robotgo/blob/master/examples/window/main.go)
+#### [Window](https://github.com/robotn/robot/blob/master/examples/window/main.go)
 
 ```Go
 package main
@@ -215,7 +215,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/robotn/robot"
 )
 
 func main() {
@@ -257,11 +257,11 @@ Donate money by [paypal](https://www.paypal.me/veni0/25) to my account [vzvway@g
 
 ## Contributors
 
-- See [contributors page](https://github.com/go-vgo/robotgo/graphs/contributors) for full list of contributors.
-- See [Contribution Guidelines](https://github.com/go-vgo/robotgo/blob/master/CONTRIBUTING.md).
+- See [contributors page](https://github.com/robotn/robot/graphs/contributors) for full list of contributors.
+- See [Contribution Guidelines](https://github.com/robotn/robot/blob/master/CONTRIBUTING.md).
 
 ## License
 
 Robotgo is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0), with portions covered by various BSD-like licenses.
 
-See [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0), [LICENSE-MIT](https://github.com/go-vgo/robotgo/blob/master/LICENSE).
+See [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0), [LICENSE-MIT](https://github.com/robotn/robot/blob/master/LICENSE).
