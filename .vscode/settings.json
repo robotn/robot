@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "io.c": "cpp",
+        "go12.c": "cpp"
+    }
+}
